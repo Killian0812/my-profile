@@ -40,7 +40,7 @@ const SocialLinks = () => {
           CV <ImProfile size={30} />
         </>
       ),
-      href: "/cv.pdf",
+      href: "/my-profile/cv.pdf",
       style: "rounded-br-md",
       download: true,
     },
