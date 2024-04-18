@@ -1,5 +1,6 @@
 import React from "react";
 import klock from "../assets/projects/klock.png";
+import chatk from "../assets/projects/chatk.png";
 import tendataCrawler from "../assets/projects/tendata-crawler.png";
 
 const Project = () => {
@@ -12,7 +13,7 @@ const Project = () => {
     },
     {
       id: 2,
-      src: klock,
+      src: chatk,
       title: 'ChatK',
       content: 'A realtime chat app built for school project focus on enhancing user experience. This also provided me with valuable experience in implementing an effective team Git workflow.'
     },
