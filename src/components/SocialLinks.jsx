@@ -40,7 +40,7 @@ const SocialLinks = () => {
           CV <ImProfile size={30} />
         </>
       ),
-      href: "/my-profile/Nguyen Manh Cuong_CV.pdf",
+      href: "Nguyen Manh Cuong_CV.pdf",
       style: "rounded-br-md",
       download: true,
     },
