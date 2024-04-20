@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/my-profile/static/css/main.d3be37f1.css",
-    "main.js": "/my-profile/static/js/main.08c54e5b.js",
+    "main.css": "/my-profile/static/css/main.6e90d0d3.css",
+    "main.js": "/my-profile/static/js/main.12a24258.js",
     "static/media/profile.png": "/my-profile/static/media/profile.04ff2974f66382f77429.png",
     "static/media/mysql.png": "/my-profile/static/media/mysql.167c88550478e6f0f85c.png",
+    "static/media/tqbedu.png": "/my-profile/static/media/tqbedu.86725b681161b34ad466.png",
     "static/media/chatk.png": "/my-profile/static/media/chatk.2787054b75445040fa78.png",
     "static/media/reactnative.png": "/my-profile/static/media/reactnative.283f9f863581bb226e65.png",
     "static/media/mongodb.png": "/my-profile/static/media/mongodb.2f81ed7ec1fd818da1b5.png",
     "static/media/klock.png": "/my-profile/static/media/klock.822a23daa1d59acbeb73.png",
-    "static/media/tendata-crawler.png": "/my-profile/static/media/tendata-crawler.7f6de4121bb13f586b00.png",
     "static/media/springboot.png": "/my-profile/static/media/springboot.3a62aad686a996f7bcc6.png",
     "static/media/redux.png": "/my-profile/static/media/redux.b426d97de12d4dab1c06.png",
     "static/media/react.png": "/my-profile/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -18,11 +18,11 @@
     "static/media/express.png": "/my-profile/static/media/express.39a0f4c3d981885c64f8.png",
     "static/media/redis.png": "/my-profile/static/media/redis.52a85440d0cb10638fe8.png",
     "index.html": "/my-profile/index.html",
-    "main.d3be37f1.css.map": "/my-profile/static/css/main.d3be37f1.css.map",
-    "main.08c54e5b.js.map": "/my-profile/static/js/main.08c54e5b.js.map"
+    "main.6e90d0d3.css.map": "/my-profile/static/css/main.6e90d0d3.css.map",
+    "main.12a24258.js.map": "/my-profile/static/js/main.12a24258.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3be37f1.css",
-    "static/js/main.08c54e5b.js"
+    "static/css/main.6e90d0d3.css",
+    "static/js/main.12a24258.js"
   ]
 }
