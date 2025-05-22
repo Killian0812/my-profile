@@ -1,30 +1,53 @@
-import React from "react";
+import tastetube from "../assets/projects/tastetube.png";
 import klock from "../assets/projects/klock.png";
 import chatk from "../assets/projects/chatk.png";
+import airsense from "../assets/projects/airsense.png";
 import tqbedu from "../assets/projects/tqbedu.png";
+import roadtohust from "../assets/projects/roadtohust.png";
 
 const Project = () => {
   const projects = [
     {
       id: 1,
+      src: tastetube,
+      title: 'TasteTube',
+      content: 'A cross-platform social video-sharing and e-commerce platform for the F&B community. TasteTube lets users explore food content, while restaurants can showcase dishes, manage orders, and engage with customers.',
+      techstack: 'Flutter, Google Transcoder API, Google Maps API, NodeJS, Firebase'
+    },
+    {
+      id: 2,
       src: klock,
       title: 'KLock',
       content: 'A smart-lock managing app integrated with face-recognition device on every front door. You can see who enters the room along with the date and time. KLock mobile app allows you to open door for your guest remotely.',
       techstack: 'React, React-Native, Expo, NodeJS, Firebase'
     },
     {
-      id: 2,
+      id: 3,
       src: chatk,
       title: 'ChatK',
-      content: 'A realtime chat and video call app built for school project focus on enhancing user experience. This also provided me with valuable experience in implementing an effective team Git workflow.',
+      content: 'A real-time chat and video call application designed to enhance user experience. Users can participate in group calls, FaceTime, and other interactive features for seamless communication.',
       techstack: 'React, GetStream API, NodeJS, MongoDB'
     },
     {
-      id: 3,
+      id: 4,
+      src: airsense,
+      title: 'AirSense',
+      content: 'A mobile app that allows users to monitor real-time air quality based on AQI, providing timely updates and instant notifications when entering areas with poor air quality to help them stay informed and safe.',
+      techstack: 'React-Native, FCM, Google Maps API, ESP32, Sensors'
+    },
+    {
+      id: 5,
       src: tqbedu,
       title: 'TQBEdu',
       content: 'A platform where teachers can quickly create exams, shuffle questions or generate questions from mathematical formulas. Students can take exams in class, view detailed results, and participate in training sessions using open exams.',
       techstack: 'Spring Boot, MySQL, Redis'
+    },
+    {
+      id: 6,
+      src: roadtohust,
+      title: 'RoadToHUST',
+      content: 'A 2D RPG game built with Java Swing featuring object interactions, collision detection, NPCs, quests, and battles. The main goal is to help a HUST student navigate to his university.',
+      techstack: 'Java, Java Swing'
     }
   ];
 
