@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # or master, depending on your default branch
+      - master
 
 jobs:
   build-and-deploy:
@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "18" # or the version your project uses
+          node-version: "18"
 
       - name: Install dependencies
         run: npm install
