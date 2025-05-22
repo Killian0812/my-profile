@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bee995e6.css",
+    "main.js": "/portfolio/static/js/main.7de05ad5.js",
+    "static/media/tastetube.png": "/portfolio/static/media/tastetube.864025fbe498cf53aa3f.png",
+    "static/media/airsense.png": "/portfolio/static/media/airsense.e0a13a5b1d8e619e2504.png",
+    "static/media/roadtohust.png": "/portfolio/static/media/roadtohust.b7a54fb756b960407bf5.png",
+    "static/media/profile.png": "/portfolio/static/media/profile.04ff2974f66382f77429.png",
+    "static/media/chatk.png": "/portfolio/static/media/chatk.efa3f59aeb8508f03250.png",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.167c88550478e6f0f85c.png",
+    "static/media/tqbedu.png": "/portfolio/static/media/tqbedu.86725b681161b34ad466.png",
+    "static/media/reactnative.png": "/portfolio/static/media/reactnative.283f9f863581bb226e65.png",
+    "static/media/mongodb.png": "/portfolio/static/media/mongodb.2f81ed7ec1fd818da1b5.png",
+    "static/media/klock.png": "/portfolio/static/media/klock.822a23daa1d59acbeb73.png",
+    "static/media/gcp.png": "/portfolio/static/media/gcp.1123aea6b7edb55ec689.png",
+    "static/media/springboot.png": "/portfolio/static/media/springboot.3a62aad686a996f7bcc6.png",
+    "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/firebase.png": "/portfolio/static/media/firebase.18e8cd693c55dbadc622.png",
+    "static/media/nodejs.png": "/portfolio/static/media/nodejs.31c0e97d5776c294d370.png",
+    "static/media/redis.png": "/portfolio/static/media/redis.52a85440d0cb10638fe8.png",
+    "static/media/flutter.svg": "/portfolio/static/media/flutter.9a496ae25b064ea252617eecbce6d6b7.svg",
+    "index.html": "/portfolio/index.html",
+    "main.bee995e6.css.map": "/portfolio/static/css/main.bee995e6.css.map",
+    "main.7de05ad5.js.map": "/portfolio/static/js/main.7de05ad5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bee995e6.css",
+    "static/js/main.7de05ad5.js"
+  ]
+}
