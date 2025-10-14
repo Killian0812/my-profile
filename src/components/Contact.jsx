@@ -14,6 +14,8 @@ const Contact = () => {
           <p className="py-6">You can contact me using information below:</p>
           <p className="py-1">Facebook: <a href="https://www.facebook.com/profile.php?id=100007801574815"
             target="_blank" rel="noreferrer" className="underline text-blue-500">Nguyễn Cường</a></p>
+          <p className="py-1">Linkedin: <a href="https://www.linkedin.com/in/cuong-nguyen-881209259"
+            target="_blank" rel="noreferrer" className="underline text-blue-500">Cuong Nguyen</a></p>
           <p className="py-1">Email: ngcuong0812@gmail.com</p>
           <p className="py-1">Phone: (+84) 888 264 006</p>
         </div>
