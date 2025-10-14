@@ -34,7 +34,7 @@ const Home = () => {
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             I was born in December 2003. Majoring in Computer Engineering at Hanoi
-            University of Science and Technology (HUST) with a passion for web development.
+            University of Science and Technology (HUST) with a passion for software development.
           </p>
         </div>
 
