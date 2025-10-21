@@ -10,6 +10,7 @@ import git from '../assets/techs/git.png'
 import flutter from '../assets/techs/flutter.svg'
 import gcp from '../assets/techs/gcp.png'
 import tensorflow from '../assets/techs/tensorflow.png'
+import { motion } from "framer-motion";
 
 const Skill = () => {
   const techs = [
@@ -93,22 +94,31 @@ const Skill = () => {
       className="bg-gradient-to-b from-gray-800 to-black w-full h-full"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-        <div>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true, amount: 0.2 }}
+        >
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Skill
           </p>
           <p className="py-6">These are the technologies I've worked with</p>
-        </div>
+        </motion.div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
-          {techs.map(({ id, src, title, style }) => (
-            <div
-              key={id}
-              className={`pt-5 shadow-md hover:scale-105 duration-500 py-2 rounded-lg flex flex-col items-center justify-between h-40 ${style}`}
+          {techs.map((tech, index) => (
+            <motion.div
+              key={tech.id}
+              className={`pt-5 shadow-md hover:scale-105 duration-500 py-2 rounded-lg flex flex-col items-center justify-between h-40 ${tech.style}`}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3, delay: index * 0.08 }}
+              viewport={{ once: true, amount: 0.2 }}
             >
-              <img src={src} alt="" className="w-20 mx-auto" />
-              <p className="mb-1">{title}</p>
-            </div>
+              <img src={tech.src} alt="" className="w-20 mx-auto" />
+              <p className="mb-1">{tech.title}</p>
+            </motion.div>
           ))}
         </div>
       </div>
