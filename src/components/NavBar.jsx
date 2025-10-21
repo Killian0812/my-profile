@@ -45,6 +45,7 @@ const NavBar = () => {
             </Link>
           </li>
         ))}
+
       </ul>
 
       <div
@@ -71,6 +72,7 @@ const NavBar = () => {
               </Link>
             </li>
           ))}
+
         </ul>
       )}
     </div>
