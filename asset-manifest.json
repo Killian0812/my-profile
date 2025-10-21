@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-profile/static/css/main.bee995e6.css",
-    "main.js": "/my-profile/static/js/main.6deadf50.js",
+    "main.css": "/my-profile/static/css/main.cd7342a0.css",
+    "main.js": "/my-profile/static/js/main.df0a1f15.js",
     "static/media/tastetube.png": "/my-profile/static/media/tastetube.c72df76eda423967ee58.png",
     "static/media/airsense.png": "/my-profile/static/media/airsense.e0a13a5b1d8e619e2504.png",
     "static/media/roadtohust.png": "/my-profile/static/media/roadtohust.b7a54fb756b960407bf5.png",
@@ -17,14 +17,15 @@
     "static/media/react.png": "/my-profile/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/firebase.png": "/my-profile/static/media/firebase.18e8cd693c55dbadc622.png",
     "static/media/nodejs.png": "/my-profile/static/media/nodejs.31c0e97d5776c294d370.png",
+    "static/media/logo192.png": "/my-profile/static/media/logo192.6e52ec607a6ff2ef6a7e.png",
     "static/media/redis.png": "/my-profile/static/media/redis.52a85440d0cb10638fe8.png",
     "static/media/flutter.svg": "/my-profile/static/media/flutter.9a496ae25b064ea252617eecbce6d6b7.svg",
     "index.html": "/my-profile/index.html",
-    "main.bee995e6.css.map": "/my-profile/static/css/main.bee995e6.css.map",
-    "main.6deadf50.js.map": "/my-profile/static/js/main.6deadf50.js.map"
+    "main.cd7342a0.css.map": "/my-profile/static/css/main.cd7342a0.css.map",
+    "main.df0a1f15.js.map": "/my-profile/static/js/main.df0a1f15.js.map"
   },
   "entrypoints": [
-    "static/css/main.bee995e6.css",
-    "static/js/main.6deadf50.js"
+    "static/css/main.cd7342a0.css",
+    "static/js/main.df0a1f15.js"
   ]
 }
