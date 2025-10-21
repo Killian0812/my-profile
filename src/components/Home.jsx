@@ -1,15 +1,12 @@
 import React, { useState } from "react";
 import ProfileImage from "../assets/profile.png";
-import ReactCardFlip from "react-card-flip";
 import { motion } from "framer-motion";
 
 const Home = () => {
-  const [flipped, setFlipped] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
 
-  function handleClick(e) {
-    e.preventDefault();
-    setFlipped((prev) => !prev);
-  }
+  // Gradual spacing animation for letters
+  const nameLetters = "Killian".split("");
 
   return (
     <div
@@ -21,19 +18,30 @@ const Home = () => {
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          className="flex flex-col justify-center h-full md:w-[70%]"
+          className="flex flex-col justify-center md:w-[70%]"
         >
-          <h2 className="nameFlip text-4xl sm:text-7xl text-white">
-            <ReactCardFlip isFlipped={flipped} flipDirection="vertical">
-              <p onMouseEnter={handleClick}>
-                Hi, I'm <span className="font-signature">Killian</span>
-              </p>
-
-              <p onMouseLeave={handleClick}>
-                Hi, I'm <span className="font-signature">Cường</span>
-              </p>
-            </ReactCardFlip>
-          </h2>
+          <span
+            className="text-4xl sm:text-7xl text-white"
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+          >
+            {nameLetters.map((letter, index) => (
+              <motion.span
+                key={index}
+                initial={{ letterSpacing: "0rem" }}
+                animate={{
+                  letterSpacing: isHovered ? "0.5rem" : "0rem",
+                  transition: {
+                    duration: 0.5,
+                    delay: index * 0.05,
+                  },
+                }}
+                className="inline-block"
+              >
+                {letter}
+              </motion.span>
+            ))}
+          </span>
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
